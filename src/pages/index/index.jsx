@@ -15,13 +15,13 @@ export default class Index extends Component {
     courses: [
       { id: 1, image: ganshou, title: "感受空气" },
       { id: 2, image: tansuo, title: "探索太空" },
-      { id: 3, image: diqiu, title: "地球科学" },
-    ],
+      { id: 3, image: diqiu, title: "地球科学" }
+    ]
   };
 
   goToNewClass() {
     Taro.navigateTo({
-      url: "/pages/newclass/index",
+      url: "/pages/newclass/index"
     });
   }
 
@@ -30,8 +30,8 @@ export default class Index extends Component {
   }
 
   handleDeleteCourse(id) {
-    this.setState((prevState) => ({
-      courses: prevState.courses.filter((course) => course.id !== id),
+    this.setState(prevState => ({
+      courses: prevState.courses.filter(course => course.id !== id)
     }));
   }
 
@@ -42,13 +42,13 @@ export default class Index extends Component {
       <>
         <AtNoticebar icon="volume-plus" marquee>
           杀马特团长嗷，你来沈阳，指定没你好果子吃！小亮，给他整个活！草，走，忽略！ጿ
-          ኈ ቼ ዽ ጿ
+          ኈ ቼ ዽ ጿ..
         </AtNoticebar>
         <View>
           <AtButton onClick={this.goToNewClass.bind(this)} type="primary">
             新建课程
           </AtButton>
-          {courses.map((course) => (
+          {courses.map(course => (
             <Zujian
               key={course.id}
               huan={course.image}
