@@ -1,0 +1,25 @@
+@import "~taro-ui/dist/style/components/tabs.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/noticebar.scss";
+@import "~taro-ui/dist/style/components/list.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+.student-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .red-button {
+    background-color: red;
+    border-color: red;
+    color: white;
+  }
+  .delete-button {
+    //把这个按钮移到最右边
+    float: right;
+    margin-left: 10px;
+  }
+  

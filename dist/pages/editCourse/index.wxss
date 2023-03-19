@@ -1,0 +1,14 @@
+.edit-course {
+  padding: 20rpx;
+}
+.edit-course Text {
+  font-size: 18rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+.edit-course .at-input {
+  margin-bottom: 20rpx;
+}
+.edit-course .at-button {
+  width: 100%;
+}
