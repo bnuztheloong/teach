@@ -1,1 +1,13 @@
+.avatar-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20rpx 0;
+}
 
+.save-button {
+  margin-top: 20rpx;
+}

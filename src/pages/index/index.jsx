@@ -42,7 +42,7 @@ export default class Index extends Component {
       <>
         <AtNoticebar icon="volume-plus" marquee>
           杀马特团长嗷，你来沈阳，指定没你好果子吃！小亮，给他整个活！草，走，忽略！ጿ
-          ኈ ቼ ዽ ጿ..
+          ኈ ቼ ዽ ጿ
         </AtNoticebar>
         <View>
           <AtButton onClick={this.goToNewClass.bind(this)} type="primary">
