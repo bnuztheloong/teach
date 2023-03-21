@@ -116,11 +116,11 @@ var Index = /*#__PURE__*/function (_Component) {
 
       var courses = this.state.courses;
       return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxs"])(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__["Fragment"], {
-        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_9__[/* AtNoticebar */ "k"], {
+        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_9__[/* AtNoticebar */ "l"], {
           icon: "volume-plus",
           marquee: true,
           children: "\u6740\u9A6C\u7279\u56E2\u957F\u55F7\uFF0C\u4F60\u6765\u6C88\u9633\uFF0C\u6307\u5B9A\u6CA1\u4F60\u597D\u679C\u5B50\u5403\uFF01\u5C0F\u4EAE\uFF0C\u7ED9\u4ED6\u6574\u4E2A\u6D3B\uFF01\u8349\uFF0C\u8D70\uFF0C\u5FFD\u7565\uFF01\u133F \u1288 \u127C \u12FD \u133F"
-        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_8__[/* View */ "q"], {
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_8__[/* View */ "r"], {
           children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_9__[/* AtButton */ "b"], {
             onClick: this.goToNewClass.bind(this),
             type: "primary",
@@ -134,8 +134,8 @@ var Index = /*#__PURE__*/function (_Component) {
               }
             }, course.id);
           })]
-        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_8__[/* View */ "q"], {
-          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_9__[/* AtFloatLayout */ "d"], {
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_8__[/* View */ "r"], {
+          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_9__[/* AtFloatLayout */ "e"], {
             title: "\u8FD9\u662F\u4E2A\u6807\u9898",
             onClose: this.handleCloseFloatLayout.bind(this),
             children: "\u8FD9\u662F\u5185\u5BB9\u533A \u968F\u4F60\u600E\u4E48\u5199\u8FD9\u662F\u5185\u5BB9\u533A \u968F\u4F60\u600E\u4E48\u5199\u8FD9\u662F\u5185\u5BB9\u533A \u968F\u4F60\u600E\u4E48\u5199\u8FD9\u662F\u5185\u5BB9\u533A \u968F\u4F60\u600E\u4E48\u5199\u8FD9\u662F\u5185\u5BB9\u533A \u968F\u4F60\u600E\u4E48\u5199\u8FD9\u662F\u5185\u5BB9\u533A \u968F\u4F60\u600E\u4E48\u5199"
@@ -212,20 +212,20 @@ function Zujian(_ref) {
   };
 
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxs"])(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["Fragment"], {
-    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_3__[/* AtMessage */ "j"], {}), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "q"], {
+    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_3__[/* AtMessage */ "k"], {}), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "r"], {
       className: "index",
-      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "q"], {
+      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "r"], {
         className: "at-row",
-        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "q"], {
+        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "r"], {
           className: "at-row at-row__align--start",
-          children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "q"], {
+          children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "r"], {
             className: "at-col",
             style: "margin: 10px;",
             children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* Image */ "c"], {
               style: "borderRadius: 8px; width: 180px;height: 100px;background: #fff;",
               src: huan
             })
-          }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "q"], {
+          }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "r"], {
             className: "at-col",
             style: "marginTop: 10px;",
             children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* Text */ "o"], {
@@ -233,7 +233,7 @@ function Zujian(_ref) {
             })
           })]
         })
-      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "q"], {
+      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "r"], {
         className: "at-row",
         style: "marginBottom: 10px;",
         children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_3__[/* AtButton */ "b"], {
@@ -270,8 +270,8 @@ function Zujian(_ref) {
           children: "\u5220\u9664"
         })]
       })]
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "q"], {
-      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_3__[/* AtFloatLayout */ "d"], {
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_2__[/* View */ "r"], {
+      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_3__[/* AtFloatLayout */ "e"], {
         isOpened: state,
         onClose: function onClose() {
           setState(!state);

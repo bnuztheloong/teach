@@ -1,62 +1,64 @@
-// pages/editChapter/index.jsx
-import { Component } from "react";
-import { View, Text } from "@tarojs/components";
-import { AtInputNumber, AtButton } from "taro-ui";
+import React, { useState } from "react";
+import Taro from "@tarojs/taro";
+import { View, Video } from "@tarojs/components";
+import { AtButton, AtCard } from "taro-ui";
 import "./index.scss";
 
-class EditChapter extends Component {
-  constructor() {
-    super(...arguments);
-    this.state = {
-      hours: 0,
-      capacity: 0
-    };
-  }
+const EditChapter = () => {
+  const [chapters, setChapters] = useState([
+    {
+      title: "章节1",
+      video: "https://stem-src.oss-cn-shenzhen.aliyuncs.com/feelAir/kexue1.mp4"
+    },
+    { title: "章节2", video: "video2.mp4" }
+  ]);
 
-  handleSave() {
-    // 在此处编写保存章节信息的逻辑
-  }
+  const handleAddChapter = () => {
+    Taro.navigateTo({
+      url: "/pages/addChapter/index"
+    });
+  };
 
-  render() {
-    const { hours, capacity } = this.state;
-    return (
+  const handleDeleteChapter = index => {
+    setChapters(prevState => prevState.filter((_, i) => i !== index));
+  };
+
+  return (
+    <>
       <View className="edit-chapter">
-        <View>
-          <View>
-            <Text>课时</Text>
-          </View>
-          <View>
-            <AtInputNumber
-              type="number"
-              min={0}
-              max={999}
-              step={1}
-              value={hours}
-              onChange={value => this.setState({ hours: value })}
-            />
-          </View>
+        <View className="add-button-container">
+          <AtButton type="primary" onClick={handleAddChapter}>
+            添加课程章节
+          </AtButton>
         </View>
-        <View>
-          <View>
-            <Text>课程容量</Text>
+
+        {chapters.map((chapter, index) => (
+          <View key={chapter.title} className="chapter-container">
+            <AtCard
+              className="chapter-card"
+              title={`${index + 1}. ${chapter.title}`}
+              isFull
+            >
+              <Video
+                src={chapter.video}
+                className="chapter-video"
+                controls
+                autoplay={false}
+                fullscreen={true}
+              />
+            </AtCard>
+            <AtButton
+              type="secondary"
+              className="delete-button"
+              onClick={() => handleDeleteChapter(index)}
+            >
+              删除
+            </AtButton>
           </View>
-          <View>
-            <AtInputNumber
-              type="number"
-              min={0}
-              max={999}
-              step={1}
-              value={capacity}
-              onChange={value => this.setState({ capacity: value })}
-            />
-          </View>
-        </View>
-        <AtButton type="primary" onClick={this.handleSave.bind(this)}>
-          保存
-        </AtButton>
+        ))}
       </View>
-    );
-  }
-}
+    </>
+  );
+};
 
 export default EditChapter;

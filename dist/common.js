@@ -73,7 +73,7 @@ var CheckBox = /*#__PURE__*/function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_6__[/* AtCheckbox */ "c"], {
+      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_6__[/* AtCheckbox */ "d"], {
         options: this.checkboxOption,
         selectedList: this.state.checkedList,
         onChange: this.handleChange.bind(this)
@@ -141,12 +141,15 @@ var ImagePicker = /*#__PURE__*/function (_Component) {
     _this = _super.apply(this, arguments);
     _this.state = {
       files: [{
-        url: 'https://i0.hdslb.com/bfs/new_dyn/7216f144fc1c218b467f0234a3beeed0300486.png@1036w.webp'
-      }, {
-        url: 'https://i0.hdslb.com/bfs/new_dyn/82ef40712bf1bcf8a40b676c4532988f300486.png@1036w.webp'
-      }, {
-        url: 'https://i0.hdslb.com/bfs/new_dyn/05c02f3e55b1f218329e2473d4496a9f300486.png@1036w.webp'
-      }]
+        url: "https://i0.hdslb.com/bfs/new_dyn/7216f144fc1c218b467f0234a3beeed0300486.png@1036w.webp"
+      } // ,
+      // {
+      //   url: 'https://i0.hdslb.com/bfs/new_dyn/82ef40712bf1bcf8a40b676c4532988f300486.png@1036w.webp',
+      // },
+      // {
+      //   url: 'https://i0.hdslb.com/bfs/new_dyn/05c02f3e55b1f218329e2473d4496a9f300486.png@1036w.webp',
+      // }
+      ]
     };
     return _this;
   }
@@ -171,7 +174,7 @@ var ImagePicker = /*#__PURE__*/function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_5__[/* AtImagePicker */ "e"], {
+      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_5__[/* AtImagePicker */ "f"], {
         files: this.state.files,
         onChange: this.onChange.bind(this)
       });
@@ -252,7 +255,7 @@ var Textarea = /*#__PURE__*/function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_5__[/* AtTextarea */ "l"], {
+      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_5__[/* AtTextarea */ "m"], {
         value: this.state.value,
         onChange: this.handleChange.bind(this),
         maxLength: 200 // placeholder="示例：《xxx》课程由XXX老师主讲..."

@@ -1,5 +1,6 @@
 export default {
   pages: [
+    "pages/editChapter/index",
     "pages/index/index",
     "pages/user/index",
     "pages/detail/index",
@@ -7,8 +8,9 @@ export default {
     "pages/stu/index",
     "pages/addStudent/index",
     "pages/editCourse/index",
-    "pages/editChapter/index",
-    "pages/generateActivationCode/index"
+
+    "pages/generateActivationCode/index",
+    "pages/addChapter/index"
   ],
   window: {
     backgroundTextStyle: "light",

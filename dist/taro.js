@@ -1183,7 +1183,7 @@ if (false) { var oldDiffedHook, oldVNodeHook, options; }
   !*** ./node_modules/@tarojs/plugin-platform-weapp/dist/components-react.js ***!
   \*****************************************************************************/
 /*! exports provided: Ad, AdCustom, Audio, Block, Button, Camera, Canvas, Checkbox, CheckboxGroup, CoverImage, CoverView, CustomWrapper, Editor, Form, FunctionalPageNavigator, Icon, Image, Input, KeyboardAccessory, Label, LivePlayer, LivePusher, Map, MatchMedia, MovableArea, MovableView, NavigationBar, Navigator, OfficialAccount, OpenData, PageContainer, PageMeta, Picker, PickerView, PickerViewColumn, Progress, Radio, RadioGroup, RichText, ScrollView, ShareElement, Slider, Slot, Swiper, SwiperItem, Switch, Text, Textarea, Video, View, VoipRoom, WebView */
-/*! exports used: Button, Form, Image, Input, Label, MovableArea, MovableView, OpenData, Picker, ScrollView, Slider, Swiper, SwiperItem, Switch, Text, Textarea, View */
+/*! exports used: Button, Form, Image, Input, Label, MovableArea, MovableView, OpenData, Picker, ScrollView, Slider, Swiper, SwiperItem, Switch, Text, Textarea, Video, View */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1235,8 +1235,8 @@ if (false) { var oldDiffedHook, oldVNodeHook, options; }
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return Switch; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return Text; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return Textarea; });
-/* unused harmony export Video */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return View; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return Video; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return View; });
 /* unused harmony export VoipRoom */
 /* unused harmony export WebView */
 var View = 'view';

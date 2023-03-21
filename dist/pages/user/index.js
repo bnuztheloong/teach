@@ -48,18 +48,18 @@ var Index = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxs"])(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__["Fragment"], {
-        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_6__[/* AtNoticebar */ "k"], {
+        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_6__[/* AtNoticebar */ "l"], {
           icon: "volume-plus",
           marquee: true,
           children: "\u6740\u9A6C\u7279\u56E2\u957F\u55F7!\uFF0C\u4F60\u6765\u6C88\u9633\uFF0C\u6307\u5B9A\u6CA1\u4F60\u597D\u679C\u5B50\u5403\uFF01\u5C0F\u4EAE\uFF0C\u7ED9\u4ED6\u6574\u4E2A\u6D3B\uFF01\u8349\uFF0C\u8D70\uFF0C\u5FFD\u7565\uFF01\u133F \u1288 \u127C \u12FD \u133F"
-        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_5__[/* View */ "q"], {
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_5__[/* View */ "r"], {
           className: "mid",
           children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_6__[/* AtAvatar */ "a"], {
             circle: true,
             size: "large",
             image: "https://mmbiz.qpic.cn/mmbiz_jpg/SstmToR9mTCLK1e2iae7lhZMUa4DoT3rfLNZqic4IGHFtAjLwicSLJEuIkEpNZQ95MqiaLDtpRG4En31lI6ia0ibrgIg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1"
           })
-        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_5__[/* View */ "q"], {
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_5__[/* View */ "r"], {
           children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_6__[/* AtButton */ "b"], {
             type: "primary",
             size: "small",

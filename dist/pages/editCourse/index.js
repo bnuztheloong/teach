@@ -86,11 +86,11 @@ var EditCourse = /*#__PURE__*/function (_Component) {
       var _this$state = this.state,
           courseName = _this$state.courseName,
           selectorChecked = _this$state.selectorChecked;
-      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_7__[/* View */ "q"], {
+      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_7__[/* View */ "r"], {
         className: "edit-course",
         children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_7__[/* Text */ "o"], {
           children: "\u8BFE\u7A0B\u540D\u79F0"
-        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtInput */ "f"], {
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtInput */ "g"], {
           name: "courseName",
           type: "text",
           placeholder: "\u5728\u6B64\u8F93\u5165\u8BFE\u7A0B\u540D\u79F0",
@@ -100,8 +100,8 @@ var EditCourse = /*#__PURE__*/function (_Component) {
           mode: "selector",
           range: this.state.selector,
           onChange: this.onChange,
-          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtList */ "h"], {
-            children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtListItem */ "i"], {
+          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtList */ "i"], {
+            children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtListItem */ "j"], {
               title: "\u662F\u5426\u6536\u8D39",
               extraText: selectorChecked
             })
