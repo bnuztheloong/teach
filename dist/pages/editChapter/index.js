@@ -36,7 +36,10 @@ var EditChapter = function EditChapter() {
     video: "https://stem-src.oss-cn-shenzhen.aliyuncs.com/feelAir/kexue1.mp4"
   }, {
     title: "章节2",
-    video: "video2.mp4"
+    video: "https://stem-src.oss-cn-shenzhen.aliyuncs.com/feelAir/kexue2.mp4"
+  }, {
+    title: "章节3",
+    video: "https://stem-src.oss-cn-shenzhen.aliyuncs.com/feelAir/kexue3.mp4"
   }]),
       _useState2 = Object(_Users_loong_Downloads_teach_teach_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(_useState, 2),
       chapters = _useState2[0],

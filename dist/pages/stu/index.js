@@ -89,7 +89,7 @@ var Index = /*#__PURE__*/function (_Component) {
       return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_7__[/* View */ "r"], {
         children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_7__[/* View */ "r"], {
           className: "avatar-container",
-          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtImagePicker */ "f"], {
+          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtImagePicker */ "g"], {
             mode: "aspectFill",
             files: avatar,
             onChange: this.onImageChange,
@@ -98,7 +98,7 @@ var Index = /*#__PURE__*/function (_Component) {
             count: 1
           })
         }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsxs"])(_tarojs_components__WEBPACK_IMPORTED_MODULE_7__[/* View */ "r"], {
-          children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtInput */ "g"], {
+          children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtInput */ "h"], {
             name: "name",
             title: "\u5B66\u751F\u59D3\u540D",
             type: "text",
@@ -107,7 +107,7 @@ var Index = /*#__PURE__*/function (_Component) {
             onChange: function onChange(value) {
               return _this2.handleChange("name", value);
             }
-          }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtInput */ "g"], {
+          }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtInput */ "h"], {
             name: "parent",
             title: "\u5B66\u751F\u5BB6\u957F",
             type: "text",
@@ -116,7 +116,7 @@ var Index = /*#__PURE__*/function (_Component) {
             onChange: function onChange(value) {
               return _this2.handleChange("parent", value);
             }
-          }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtInput */ "g"], {
+          }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtInput */ "h"], {
             name: "phone",
             title: "\u8054\u7CFB\u7535\u8BDD",
             type: "text",
@@ -125,7 +125,7 @@ var Index = /*#__PURE__*/function (_Component) {
             onChange: function onChange(value) {
               return _this2.handleChange("phone", value);
             }
-          }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtInput */ "g"], {
+          }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_8__[/* AtInput */ "h"], {
             name: "className",
             title: "\u73ED\u7EA7",
             type: "text",

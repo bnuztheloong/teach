@@ -174,7 +174,7 @@ var ImagePicker = /*#__PURE__*/function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_5__[/* AtImagePicker */ "f"], {
+      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_5__[/* AtImagePicker */ "g"], {
         files: this.state.files,
         onChange: this.onChange.bind(this)
       });
@@ -255,7 +255,7 @@ var Textarea = /*#__PURE__*/function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_5__[/* AtTextarea */ "m"], {
+      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__["jsx"])(taro_ui__WEBPACK_IMPORTED_MODULE_5__[/* AtTextarea */ "n"], {
         value: this.state.value,
         onChange: this.handleChange.bind(this),
         maxLength: 200 // placeholder="示例：《xxx》课程由XXX老师主讲..."

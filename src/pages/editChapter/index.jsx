@@ -10,7 +10,14 @@ const EditChapter = () => {
       title: "章节1",
       video: "https://stem-src.oss-cn-shenzhen.aliyuncs.com/feelAir/kexue1.mp4"
     },
-    { title: "章节2", video: "video2.mp4" }
+    {
+      title: "章节2",
+      video: "https://stem-src.oss-cn-shenzhen.aliyuncs.com/feelAir/kexue2.mp4"
+    },
+    {
+      title: "章节3",
+      video: "https://stem-src.oss-cn-shenzhen.aliyuncs.com/feelAir/kexue3.mp4"
+    }
   ]);
 
   const handleAddChapter = () => {
